@@ -1,0 +1,169 @@
+body{
+   background-color: black;
+    color: #ffffff;
+    
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+
+}
+.container{
+    text-align: center;
+    font-size: 275%;
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(theverge.jpg) ;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: 1500px;
+    background-position: center ;
+
+   
+    
+    
+    
+
+
+
+    
+
+
+}
+#main-heading {
+    position: absolute;
+  top: 25%;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+    
+   
+
+}
+
+.captionmain{
+    text-align: center;
+    
+}
+.dropbtn {
+    background-color:black;
+    color:white;
+    font-size: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.drop-content{
+    display: none;
+    position: absolute;
+    background-color: black ;
+    min-width: 15px;
+    z-index: 1;
+    
+}
+.drop-content a {
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+
+}
+.dropdown:hover .drop-content{
+    display: block;
+}
+.dropdown:hover .dropbtn{
+    background-color: black;
+}
+#navbar{
+    text-align: center;
+}
+#mainfooter{
+    text-align: right;
+    font-size: small;
+    margin-top: 50%;
+   
+
+
+}
+#showcase h1{
+    float: left;
+    border: yellow solid;
+    width: 25%;
+    background: black;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+   
+
+}
+
+#showcase h3{
+    float: left;
+    border: yellow solid;
+    width: 25%;
+    padding: 15px;
+    box-sizing: border-box;
+    
+
+}
+#showcase img{
+    width: 99%;
+
+}
+#showcase h2{
+    text-align:center;
+    width: 25%;
+    float:left;
+    padding: 15px;
+    box-sizing: border-box;
+
+
+    
+    border: yellow solid;
+    
+
+}
+#sidebar img{
+    float: left;
+    width: 10%;
+    border: yellow solid;
+
+}
+#sidebar p{
+    float: left;
+    
+    
+
+}
+#sidebar a:link {
+    text-decoration: none;
+    
+
+
+}
+#sidebar a:hover{
+    color:crimson;
+}
+#sidebar a{
+    color: white;
+}
+@media(max-width:600px){
+     #showcase{
+         width:100%;
+         float: none;
+     }
+     #sidebar{
+        width:100%;
+        float: none;
+
+     }
+}
+
+
+
+
